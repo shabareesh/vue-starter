@@ -11,7 +11,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { FETCH_WEATHER } from '../actions/weatherListActions';
+import { FETCH_WEATHER } from '../store/modules/weatherList/weatherConstants';
 
 export default {
   name: 'WeatherList',
