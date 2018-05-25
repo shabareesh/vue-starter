@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherForm should render 1`] = `
+<div class="form-wrapper">
+    <h1>Add Weather</h1>
+    <router-link to="[object Object]" active-class="active" class="nav-link">
+        View list
+    </router-link>
+    <div class="form-container">
+        <div class="form-field"><span>Wind Speed</span>
+            <input type="number">
+        </div>
+        <div class="form-field"><span>Current Speed</span>
+            <input type="number">
+        </div>
+        <div class="form-field"><span>Swell Hght</span>
+            <input type="number">
+        </div>
+        <div class="form-field"><span>Sea Hght</span>
+            <input type="number">
+        </div>
+    </div>
+</div>
+`;
